@@ -1,0 +1,36 @@
+# SIH26057 - Person B: Detection & Confidence Model
+# AI-Powered Marine Debris Detection via Side-Scan Sonar
+
+# Core
+numpy>=1.24,<2.0
+opencv-python-headless>=4.8
+Pillow>=10.0
+pyyaml>=6.0
+pydantic>=2.0
+
+# Deep Learning
+torch>=2.0
+torchvision>=0.15
+ultralytics>=8.1  # YOLOv8
+
+# Scientific
+scipy>=1.11
+scikit-learn>=1.3
+scikit-image>=0.21
+
+# Visualization & Explainability
+matplotlib>=3.7
+grad-cam>=1.5.0  # pytorch-grad-cam
+
+# Testing
+pytest>=7.4
+pytest-cov>=4.1
+
+# API & Web Service (Person C Integration)
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+
+# Utilities
+tqdm>=4.65
+tabulate>=0.9

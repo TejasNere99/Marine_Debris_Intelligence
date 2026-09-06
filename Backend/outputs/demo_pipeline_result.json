@@ -1,0 +1,183 @@
+{
+  "image_id": "demo_synthetic_scene.png",
+  "processing_status": "success",
+  "detections": [
+    {
+      "annotation_id": "demo_cand_001_net",
+      "class_id": 0,
+      "class_name": "ghost_net",
+      "bbox_px": {
+        "x": 60.0,
+        "y": 45.0,
+        "width": 35.0,
+        "height": 25.0
+      },
+      "detector_confidence": 0.88,
+      "shadow": {
+        "observed_length_px": 59.0,
+        "observed_length_m": 5.9,
+        "direction_deg": 90.0,
+        "measurement_confidence": 0.0
+      },
+      "physics": {
+        "expected_length_px": 60.1,
+        "expected_length_m": 6.013,
+        "observed_length_px": 59.0,
+        "observed_length_m": 5.9,
+        "relative_error": 0.0188,
+        "consistency_score": 0.9944,
+        "status": "consistent",
+        "shadow_edge_score": 0.6401,
+        "backscatter_score": 0.0327
+      },
+      "confidence": {
+        "shape_score": 0.155,
+        "texture_score": 0.55,
+        "final_score": 77.8
+      },
+      "explainability": {
+        "heatmap_path": ""
+      },
+      "shadow_consistency_score": 0.9944,
+      "shadow_edge_score": 0.6401,
+      "backscatter_score": 0.0327,
+      "physics_confidence": 0.6654,
+      "classification": "NET_TANGLE",
+      "classification_confidence": 0.7628,
+      "recommend_rescan": false
+    },
+    {
+      "annotation_id": "demo_cand_002_debris",
+      "class_id": 1,
+      "class_name": "debris",
+      "bbox_px": {
+        "x": 60.0,
+        "y": 135.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "detector_confidence": 0.91,
+      "shadow": {
+        "observed_length_px": 59.0,
+        "observed_length_m": 5.9,
+        "direction_deg": 90.0,
+        "measurement_confidence": 0.0
+      },
+      "physics": {
+        "expected_length_px": 60.1,
+        "expected_length_m": 6.013,
+        "observed_length_px": 59.0,
+        "observed_length_m": 5.9,
+        "relative_error": 0.0188,
+        "consistency_score": 0.9944,
+        "status": "consistent",
+        "shadow_edge_score": 0.6895,
+        "backscatter_score": 0.8768
+      },
+      "confidence": {
+        "shape_score": 0.205,
+        "texture_score": 0.112,
+        "final_score": 75.4
+      },
+      "explainability": {
+        "heatmap_path": ""
+      },
+      "shadow_consistency_score": 0.9944,
+      "shadow_edge_score": 0.6895,
+      "backscatter_score": 0.8768,
+      "physics_confidence": 0.8888,
+      "classification": "SOLID_DEBRIS_WRECK",
+      "classification_confidence": 0.8254,
+      "recommend_rescan": false
+    },
+    {
+      "annotation_id": "demo_cand_003_rock",
+      "class_id": 2,
+      "class_name": "rock_hard_negative",
+      "bbox_px": {
+        "x": 60.0,
+        "y": 225.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "detector_confidence": 0.74,
+      "shadow": {
+        "observed_length_px": 0.0,
+        "observed_length_m": 0.0,
+        "direction_deg": 90.0,
+        "measurement_confidence": 0.0
+      },
+      "physics": {
+        "expected_length_px": 60.1,
+        "expected_length_m": 6.013,
+        "observed_length_px": 0.0,
+        "observed_length_m": 0.0,
+        "relative_error": 0.0,
+        "consistency_score": 0.0,
+        "status": "measurement_failed",
+        "shadow_edge_score": 0.0,
+        "backscatter_score": 0.0861
+      },
+      "confidence": {
+        "shape_score": 0.205,
+        "texture_score": 0.553,
+        "final_score": 60.5
+      },
+      "explainability": {
+        "heatmap_path": ""
+      },
+      "shadow_consistency_score": 0.0,
+      "shadow_edge_score": 0.0,
+      "backscatter_score": 0.0861,
+      "physics_confidence": 0.6,
+      "classification": "NATURAL",
+      "classification_confidence": 0.75,
+      "recommend_rescan": false
+    },
+    {
+      "annotation_id": "demo_cand_004_ambiguous",
+      "class_id": 0,
+      "class_name": "ghost_net",
+      "bbox_px": {
+        "x": 280.0,
+        "y": 135.0,
+        "width": 30.0,
+        "height": 30.0
+      },
+      "detector_confidence": 0.32,
+      "shadow": {
+        "observed_length_px": 0.0,
+        "observed_length_m": 0.0,
+        "direction_deg": 90.0,
+        "measurement_confidence": 0.0
+      },
+      "physics": {
+        "expected_length_px": 60.1,
+        "expected_length_m": 6.013,
+        "observed_length_px": 0.0,
+        "observed_length_m": 0.0,
+        "relative_error": 0.0,
+        "consistency_score": 0.0,
+        "status": "measurement_failed",
+        "shadow_edge_score": 0.0,
+        "backscatter_score": 0.0
+      },
+      "confidence": {
+        "shape_score": 0.205,
+        "texture_score": 0.036,
+        "final_score": 25.4
+      },
+      "explainability": {
+        "heatmap_path": ""
+      },
+      "shadow_consistency_score": 0.0,
+      "shadow_edge_score": 0.0,
+      "backscatter_score": 0.0,
+      "physics_confidence": 0.2,
+      "classification": "AMBIGUOUS_RESCAN",
+      "classification_confidence": 0.3,
+      "recommend_rescan": true
+    }
+  ],
+  "error_message": ""
+}

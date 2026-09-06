@@ -1,0 +1,91 @@
+# ==============================================================================
+# SIH26057 - Marine Debris Intelligence Repository .gitignore
+# ==============================================================================
+
+# Node.js & Frontend dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Testing caches & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.cache/
+
+# Environment configurations (keep .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDEs, Tools & OS specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.claude/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Large ML model checkpoints (track .gitkeep, ignore weights files)
+*.pt
+*.pth
+*.onnx
+*.weights
+Backend/outputs/checkpoints/*.pt
+!Backend/outputs/checkpoints/.gitkeep
+
+# Server runtime upload sessions & generated run artifacts
+Backend/outputs/uploads/analysis_*
+Backend/outputs/reports/analysis_*
+Backend/outputs/heatmaps/analysis_*
+Backend/outputs/heatmaps/*.png
+
+# Preserve canonical demo assets
+!Backend/outputs/demo_synthetic_scene.png
+!Backend/outputs/demo_pipeline_result.json
